@@ -1,0 +1,2 @@
+bs4
+python3-wget
