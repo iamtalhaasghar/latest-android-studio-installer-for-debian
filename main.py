@@ -25,7 +25,7 @@ for i in packageSources.find_all('a'):
 		
 		filename = wget.download(link, out=downloadPath)
 				
-		print('Extracting %s to %s' % (downloadPath, extractPath))
+		print('\nExtracting %s to %s' % (downloadPath, extractPath))
 		tar = tarfile.open(downloadPath)
 		
 		for member_info in tar.getmembers():
