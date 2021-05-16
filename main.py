@@ -1,5 +1,7 @@
 # created on 15-May-2021
 # iamtalhaasghar
+# a simple script to download and install latest version of android studio on any linux distro
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import wget
