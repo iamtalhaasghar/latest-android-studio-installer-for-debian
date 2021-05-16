@@ -8,6 +8,7 @@ import wget
 import os
 import tarfile
 
+# this is mantained by AUR community
 url = 'https://aur.archlinux.org/packages/android-studio/'
 site = urlopen(url)
 soup = BeautifulSoup(site.read(), 'html.parser')
